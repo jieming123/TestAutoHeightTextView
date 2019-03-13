@@ -14,6 +14,9 @@
 		E9422E68223944450095363A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9422E66223944450095363A /* LaunchScreen.storyboard */; };
 		E9422E73223944460095363A /* TestAutoHeightTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9422E72223944460095363A /* TestAutoHeightTextViewTests.swift */; };
 		E9422E7E223944460095363A /* TestAutoHeightTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9422E7D223944460095363A /* TestAutoHeightTextViewUITests.swift */; };
+		E9422E8D223944720095363A /* WQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9422E8B223944720095363A /* WQTextView.swift */; };
+		E9422E8E223944720095363A /* String+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9422E8C223944720095363A /* String+Add.swift */; };
+		E9422E90223944B20095363A /* UIButton+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9422E8F223944B20095363A /* UIButton+Add.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		E9422E79223944460095363A /* TestAutoHeightTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAutoHeightTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9422E7D223944460095363A /* TestAutoHeightTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAutoHeightTextViewUITests.swift; sourceTree = "<group>"; };
 		E9422E7F223944460095363A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9422E8B223944720095363A /* WQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WQTextView.swift; sourceTree = "<group>"; };
+		E9422E8C223944720095363A /* String+Add.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Add.swift"; sourceTree = "<group>"; };
+		E9422E8F223944B20095363A /* UIButton+Add.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Add.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		E9422E5C223944440095363A /* TestAutoHeightTextView */ = {
 			isa = PBXGroup;
 			children = (
+				E9422E8F223944B20095363A /* UIButton+Add.swift */,
+				E9422E8C223944720095363A /* String+Add.swift */,
+				E9422E8B223944720095363A /* WQTextView.swift */,
 				E9422E5D223944440095363A /* AppDelegate.swift */,
 				E9422E5F223944440095363A /* ViewController.swift */,
 				E9422E61223944440095363A /* Main.storyboard */,
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9422E60223944440095363A /* ViewController.swift in Sources */,
+				E9422E90223944B20095363A /* UIButton+Add.swift in Sources */,
 				E9422E5E223944440095363A /* AppDelegate.swift in Sources */,
+				E9422E8E223944720095363A /* String+Add.swift in Sources */,
+				E9422E8D223944720095363A /* WQTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
